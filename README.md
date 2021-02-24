@@ -15,7 +15,9 @@ For instance, These factors are not known until run-time and may require radical
 
 ## Examples
 
-Within the `/src` dir you will find an examples of the adapter pattern.
+Within the `/src` dir you will find an examples of the strategy pattern.
+
+It emulates the different compression strategies that a user might request when compressing a file. Depending on the context set, it can either compress files as ZIP or RAR.
 
 ## To run the tests
 
